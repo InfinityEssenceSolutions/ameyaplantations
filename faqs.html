@@ -149,36 +149,6 @@
         <div class="container">
             <div class="row g-5">
 
-                <div class="col-lg-12 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="section-title">
-                        <h1 class=" text-primary">About Us</h1>
-                        <!-- <h1 class="display-6">The success history of Ameya Plantations in 25 years</h1> -->
-                    </div>
-                    <div class="row g-3 mb-4">
-                        <div class="col-sm-12">
-                            <!-- <img class="img-fluid bg-white w-100" src="img/about_1.jpg" alt=""> -->
-                            <p class="mb-0">Ameya's leadership comes with several decades of experience in running successful real estate and hospitality ventures. Their extensive expertise in sandalwood cultivation, coupled with strong supplier relationships, ensures the highest quality and value to Ameya's investors and customers.</p>
-                            <p class="mb-0">The dedicated in-house team is meticulously selected and trained in advanced farming techniques. This includes mastering optimal soil and water conditions, continuous plant health monitoring, and implementing robust farm security and surveillance measures. Together, Ameya are committed to excellence in every aspect of sandalwood cultivation.</p>
-
-                        </div>
-                        <div class="col-sm-8">
-                            <!-- <h5>Our tea is one of the most popular drinks in the world</h5> -->
-                            <!-- <p class="mb-0">Ameya's leadership comes with several decades of experience in running successful real estate and hospitality ventures. Their extensive expertise in sandalwood cultivation, coupled with strong supplier relationships, ensures the highest quality and value to Ameya's investors and customers.</p> -->
-                        </div>
-                    </div>
-                    <!-- <div class="border-top mb-4"></div> -->
-                    <div class="row g-3">
-                        <div class="col-sm-4">
-                            <img class="img-fluid bg-white w-100" src="img/team_2.jpg" alt="">
-                        </div>
-                        <div class="col-sm-4">
-                            <img class="img-fluid bg-white w-100" src="img/team_1.jpg" alt="">
-                        </div>
-                        <div class="col-sm-4">
-                            <img class="img-fluid bg-white w-100" src="img/about_2.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
                 <!-- <div class="col-lg-12">
                     <div class="row g-3">
                         <div class="col-6 text-end">
@@ -191,7 +161,46 @@
                         </div>
                     </div>
                 </div> -->
+                <div class="col-lg-12 wow fadeIn" id = "faqs" data-wow-delay="0.5s">
+                    <div class="section-title">
+                        <h1 class="text-primary">Frequently Asked Questions</h1>
+                        <!-- <h1 class="display-6">The success history of Ameya Plantations in 25 years</h1> -->
+                    </div>
+                    <div class="tabs">
+                        <div class="tab active" onclick="showTab('general')"><h5>General</h5></div>
+                        <div class="tab" onclick="showTab('investment')"><h5>Investment</h5></div>
+                        <div class="tab" onclick="showTab('legal')"><h5>Legal</h5></div>
+                    </div>
 
+                    <div id="general" class="faq-section active">
+                        <div class="faq-item" onclick="toggleFAQ(this)">
+                            <p class="faq-question">What is a managed sandalwood plantation?</p>
+                            <div class="faq-answer">A managed sandalwood plantation is a professionally supervised agricultural operation where sandalwood trees are cultivated, monitored, and harvested under optimal conditions. These plantations employ advanced farming techniques, regular monitoring, and expert management to ensure the growth of high-quality sandalwood.</div>
+                        </div>
+                        <div class="faq-item" onclick="toggleFAQ(this)">
+                            <p class="faq-question">Why should I invest in a managed sandalwood plantation?</p>
+                            <div class="faq-answer">Investing in a managed sandalwood plantation offers potential long-term financial benefits while supporting sustainable agriculture.</div>
+                        </div>
+                        <!-- Add more FAQ items as needed -->
+                    </div>
+
+                    <div id="investment" class="faq-section">
+                        <div class="faq-item" onclick="toggleFAQ(this)">
+                            <p class="faq-question">How long does it take for sandalwood trees to mature?</p>
+                            <div class="faq-answer">Sandalwood trees generally take 15-20 years to mature, depending on the growth conditions and management practices.</div>
+                        </div>
+                        <!-- Add more FAQ items for the "Investment" section as needed -->
+                    </div>
+
+                    <div id="legal" class="faq-section">
+                        <div class="faq-item" onclick="toggleFAQ(this)">
+                            <p class="faq-question">What legal requirements are there for owning a sandalwood plantation?</p>
+                            <div class="faq-answer">Owning a sandalwood plantation may involve specific legal permits and compliance with forestry and agricultural laws in your region.</div>
+                        </div>
+                        <!-- Add more FAQ items for the "Legal" section as needed -->
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>
